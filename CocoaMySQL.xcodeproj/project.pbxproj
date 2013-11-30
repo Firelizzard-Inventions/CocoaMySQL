@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4290F02418498FB100C67769 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4290F02318498FB100C67769 /* Cocoa.framework */; };
+		4290F02E18498FB100C67769 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4290F02C18498FB100C67769 /* InfoPlist.strings */; };
+		4290F03918498FB100C67769 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4290F03818498FB100C67769 /* XCTest.framework */; };
+		4290F03A18498FB100C67769 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4290F02318498FB100C67769 /* Cocoa.framework */; };
+		4290F03D18498FB100C67769 /* CocoaMySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4290F02018498FB100C67769 /* CocoaMySQL.framework */; };
+		4290F04318498FB100C67769 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4290F04118498FB100C67769 /* InfoPlist.strings */; };
+		4290F04518498FB100C67769 /* CocoaMySQLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4290F04418498FB100C67769 /* CocoaMySQLTests.m */; };
+		4290F05D18498FD000C67769 /* ORDAMySQLConsts.h in Headers */ = {isa = PBXBuildFile; fileRef = 4290F04E18498FD000C67769 /* ORDAMySQLConsts.h */; };
+		4290F05E18498FD000C67769 /* CocoaMySQL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4290F04F18498FD000C67769 /* CocoaMySQL.h */; };
+		4290F05F18498FD000C67769 /* CocoaMySQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4290F05018498FD000C67769 /* CocoaMySQL.m */; };
+		4290F06018498FD000C67769 /* ORDAMySQLDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 4290F05118498FD000C67769 /* ORDAMySQLDriver.h */; };
+		4290F06118498FD000C67769 /* ORDAMySQLDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4290F05218498FD000C67769 /* ORDAMySQLDriver.m */; };
+		4290F06218498FD000C67769 /* ORDAMySQLErrorResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 4290F05318498FD000C67769 /* ORDAMySQLErrorResult.h */; };
+		4290F06318498FD000C67769 /* ORDAMySQLErrorResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 4290F05418498FD000C67769 /* ORDAMySQLErrorResult.m */; };
+		4290F06418498FD000C67769 /* ORDAMySQLGovernor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4290F05518498FD000C67769 /* ORDAMySQLGovernor.h */; };
+		4290F06518498FD000C67769 /* ORDAMySQLGovernor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4290F05618498FD000C67769 /* ORDAMySQLGovernor.m */; };
+		4290F06618498FD000C67769 /* ORDAMySQLStatement.h in Headers */ = {isa = PBXBuildFile; fileRef = 4290F05718498FD000C67769 /* ORDAMySQLStatement.h */; };
+		4290F06718498FD000C67769 /* ORDAMySQLStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4290F05818498FD000C67769 /* ORDAMySQLStatement.m */; };
+		4290F06818498FD000C67769 /* ORDAMySQLTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 4290F05918498FD000C67769 /* ORDAMySQLTable.h */; };
+		4290F06918498FD000C67769 /* ORDAMySQLTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4290F05A18498FD000C67769 /* ORDAMySQLTable.m */; };
+		4290F06A18498FD000C67769 /* ORDAMySQLTableResultEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4290F05B18498FD000C67769 /* ORDAMySQLTableResultEntry.h */; };
+		4290F06B18498FD000C67769 /* ORDAMySQLTableResultEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4290F05C18498FD000C67769 /* ORDAMySQLTableResultEntry.m */; };
+		4290F06D18498FE000C67769 /* libmysqlclient.18.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4290F06C18498FE000C67769 /* libmysqlclient.18.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4290F03B18498FB100C67769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4290F01718498FB100C67769 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4290F01F18498FB100C67769;
+			remoteInfo = CocoaMySQL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4290F02018498FB100C67769 /* CocoaMySQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaMySQL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4290F02318498FB100C67769 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4290F02618498FB100C67769 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4290F02718498FB100C67769 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4290F02818498FB100C67769 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4290F02B18498FB100C67769 /* CocoaMySQL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaMySQL-Info.plist"; sourceTree = "<group>"; };
+		4290F02D18498FB100C67769 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4290F02F18498FB100C67769 /* CocoaMySQL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaMySQL-Prefix.pch"; sourceTree = "<group>"; };
+		4290F03718498FB100C67769 /* CocoaMySQLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaMySQLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4290F03818498FB100C67769 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4290F04018498FB100C67769 /* CocoaMySQLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaMySQLTests-Info.plist"; sourceTree = "<group>"; };
+		4290F04218498FB100C67769 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4290F04418498FB100C67769 /* CocoaMySQLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaMySQLTests.m; sourceTree = "<group>"; };
+		4290F04E18498FD000C67769 /* ORDAMySQLConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORDAMySQLConsts.h; sourceTree = "<group>"; };
+		4290F04F18498FD000C67769 /* CocoaMySQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaMySQL.h; sourceTree = "<group>"; };
+		4290F05018498FD000C67769 /* CocoaMySQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaMySQL.m; sourceTree = "<group>"; };
+		4290F05118498FD000C67769 /* ORDAMySQLDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORDAMySQLDriver.h; sourceTree = "<group>"; };
+		4290F05218498FD000C67769 /* ORDAMySQLDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORDAMySQLDriver.m; sourceTree = "<group>"; };
+		4290F05318498FD000C67769 /* ORDAMySQLErrorResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORDAMySQLErrorResult.h; sourceTree = "<group>"; };
+		4290F05418498FD000C67769 /* ORDAMySQLErrorResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORDAMySQLErrorResult.m; sourceTree = "<group>"; };
+		4290F05518498FD000C67769 /* ORDAMySQLGovernor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORDAMySQLGovernor.h; sourceTree = "<group>"; };
+		4290F05618498FD000C67769 /* ORDAMySQLGovernor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORDAMySQLGovernor.m; sourceTree = "<group>"; };
+		4290F05718498FD000C67769 /* ORDAMySQLStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORDAMySQLStatement.h; sourceTree = "<group>"; };
+		4290F05818498FD000C67769 /* ORDAMySQLStatement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORDAMySQLStatement.m; sourceTree = "<group>"; };
+		4290F05918498FD000C67769 /* ORDAMySQLTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORDAMySQLTable.h; sourceTree = "<group>"; };
+		4290F05A18498FD000C67769 /* ORDAMySQLTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORDAMySQLTable.m; sourceTree = "<group>"; };
+		4290F05B18498FD000C67769 /* ORDAMySQLTableResultEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORDAMySQLTableResultEntry.h; sourceTree = "<group>"; };
+		4290F05C18498FD000C67769 /* ORDAMySQLTableResultEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORDAMySQLTableResultEntry.m; sourceTree = "<group>"; };
+		4290F06C18498FE000C67769 /* libmysqlclient.18.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libmysqlclient.18.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4290F01C18498FB100C67769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4290F06D18498FE000C67769 /* libmysqlclient.18.dylib in Frameworks */,
+				4290F02418498FB100C67769 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4290F03418498FB100C67769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4290F03A18498FB100C67769 /* Cocoa.framework in Frameworks */,
+				4290F03D18498FB100C67769 /* CocoaMySQL.framework in Frameworks */,
+				4290F03918498FB100C67769 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4290F01618498FB100C67769 = {
+			isa = PBXGroup;
+			children = (
+				4290F02918498FB100C67769 /* CocoaMySQL */,
+				4290F03E18498FB100C67769 /* CocoaMySQLTests */,
+				4290F02218498FB100C67769 /* Frameworks */,
+				4290F02118498FB100C67769 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4290F02118498FB100C67769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4290F02018498FB100C67769 /* CocoaMySQL.framework */,
+				4290F03718498FB100C67769 /* CocoaMySQLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4290F02218498FB100C67769 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4290F02318498FB100C67769 /* Cocoa.framework */,
+				4290F03818498FB100C67769 /* XCTest.framework */,
+				4290F02518498FB100C67769 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4290F02518498FB100C67769 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4290F02618498FB100C67769 /* Foundation.framework */,
+				4290F02718498FB100C67769 /* CoreData.framework */,
+				4290F02818498FB100C67769 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4290F02918498FB100C67769 /* CocoaMySQL */ = {
+			isa = PBXGroup;
+			children = (
+				4290F04E18498FD000C67769 /* ORDAMySQLConsts.h */,
+				4290F04F18498FD000C67769 /* CocoaMySQL.h */,
+				4290F05018498FD000C67769 /* CocoaMySQL.m */,
+				4290F05118498FD000C67769 /* ORDAMySQLDriver.h */,
+				4290F05218498FD000C67769 /* ORDAMySQLDriver.m */,
+				4290F05318498FD000C67769 /* ORDAMySQLErrorResult.h */,
+				4290F05418498FD000C67769 /* ORDAMySQLErrorResult.m */,
+				4290F05518498FD000C67769 /* ORDAMySQLGovernor.h */,
+				4290F05618498FD000C67769 /* ORDAMySQLGovernor.m */,
+				4290F05718498FD000C67769 /* ORDAMySQLStatement.h */,
+				4290F05818498FD000C67769 /* ORDAMySQLStatement.m */,
+				4290F05918498FD000C67769 /* ORDAMySQLTable.h */,
+				4290F05A18498FD000C67769 /* ORDAMySQLTable.m */,
+				4290F05B18498FD000C67769 /* ORDAMySQLTableResultEntry.h */,
+				4290F05C18498FD000C67769 /* ORDAMySQLTableResultEntry.m */,
+				4290F02A18498FB100C67769 /* Supporting Files */,
+			);
+			path = CocoaMySQL;
+			sourceTree = "<group>";
+		};
+		4290F02A18498FB100C67769 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4290F06C18498FE000C67769 /* libmysqlclient.18.dylib */,
+				4290F02B18498FB100C67769 /* CocoaMySQL-Info.plist */,
+				4290F02C18498FB100C67769 /* InfoPlist.strings */,
+				4290F02F18498FB100C67769 /* CocoaMySQL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4290F03E18498FB100C67769 /* CocoaMySQLTests */ = {
+			isa = PBXGroup;
+			children = (
+				4290F04418498FB100C67769 /* CocoaMySQLTests.m */,
+				4290F03F18498FB100C67769 /* Supporting Files */,
+			);
+			path = CocoaMySQLTests;
+			sourceTree = "<group>";
+		};
+		4290F03F18498FB100C67769 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4290F04018498FB100C67769 /* CocoaMySQLTests-Info.plist */,
+				4290F04118498FB100C67769 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4290F01D18498FB100C67769 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4290F05D18498FD000C67769 /* ORDAMySQLConsts.h in Headers */,
+				4290F06818498FD000C67769 /* ORDAMySQLTable.h in Headers */,
+				4290F06218498FD000C67769 /* ORDAMySQLErrorResult.h in Headers */,
+				4290F06418498FD000C67769 /* ORDAMySQLGovernor.h in Headers */,
+				4290F05E18498FD000C67769 /* CocoaMySQL.h in Headers */,
+				4290F06018498FD000C67769 /* ORDAMySQLDriver.h in Headers */,
+				4290F06A18498FD000C67769 /* ORDAMySQLTableResultEntry.h in Headers */,
+				4290F06618498FD000C67769 /* ORDAMySQLStatement.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4290F01F18498FB100C67769 /* CocoaMySQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4290F04818498FB100C67769 /* Build configuration list for PBXNativeTarget "CocoaMySQL" */;
+			buildPhases = (
+				4290F01B18498FB100C67769 /* Sources */,
+				4290F01C18498FB100C67769 /* Frameworks */,
+				4290F01D18498FB100C67769 /* Headers */,
+				4290F01E18498FB100C67769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaMySQL;
+			productName = CocoaMySQL;
+			productReference = 4290F02018498FB100C67769 /* CocoaMySQL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4290F03618498FB100C67769 /* CocoaMySQLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4290F04B18498FB100C67769 /* Build configuration list for PBXNativeTarget "CocoaMySQLTests" */;
+			buildPhases = (
+				4290F03318498FB100C67769 /* Sources */,
+				4290F03418498FB100C67769 /* Frameworks */,
+				4290F03518498FB100C67769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4290F03C18498FB100C67769 /* PBXTargetDependency */,
+			);
+			name = CocoaMySQLTests;
+			productName = CocoaMySQLTests;
+			productReference = 4290F03718498FB100C67769 /* CocoaMySQLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4290F01718498FB100C67769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Firelizzard Inventions";
+				TargetAttributes = {
+					4290F03618498FB100C67769 = {
+						TestTargetID = 4290F01F18498FB100C67769;
+					};
+				};
+			};
+			buildConfigurationList = 4290F01A18498FB100C67769 /* Build configuration list for PBXProject "CocoaMySQL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4290F01618498FB100C67769;
+			productRefGroup = 4290F02118498FB100C67769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4290F01F18498FB100C67769 /* CocoaMySQL */,
+				4290F03618498FB100C67769 /* CocoaMySQLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4290F01E18498FB100C67769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4290F02E18498FB100C67769 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4290F03518498FB100C67769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4290F04318498FB100C67769 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4290F01B18498FB100C67769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4290F06518498FD000C67769 /* ORDAMySQLGovernor.m in Sources */,
+				4290F06918498FD000C67769 /* ORDAMySQLTable.m in Sources */,
+				4290F06718498FD000C67769 /* ORDAMySQLStatement.m in Sources */,
+				4290F06118498FD000C67769 /* ORDAMySQLDriver.m in Sources */,
+				4290F05F18498FD000C67769 /* CocoaMySQL.m in Sources */,
+				4290F06B18498FD000C67769 /* ORDAMySQLTableResultEntry.m in Sources */,
+				4290F06318498FD000C67769 /* ORDAMySQLErrorResult.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4290F03318498FB100C67769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4290F04518498FB100C67769 /* CocoaMySQLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4290F03C18498FB100C67769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4290F01F18498FB100C67769 /* CocoaMySQL */;
+			targetProxy = 4290F03B18498FB100C67769 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4290F02C18498FB100C67769 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4290F02D18498FB100C67769 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4290F04118498FB100C67769 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4290F04218498FB100C67769 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4290F04618498FB100C67769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4290F04718498FB100C67769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4290F04918498FB100C67769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaMySQL/CocoaMySQL-Prefix.pch";
+				INFOPLIST_FILE = "CocoaMySQL/CocoaMySQL-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/firelizzard/Documents/Programming/~/CocoaMySQL/CocoaMySQL",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		4290F04A18498FB100C67769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaMySQL/CocoaMySQL-Prefix.pch";
+				INFOPLIST_FILE = "CocoaMySQL/CocoaMySQL-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/firelizzard/Documents/Programming/~/CocoaMySQL/CocoaMySQL",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		4290F04C18498FB100C67769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaMySQL.framework/Versions/A/CocoaMySQL";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaMySQL/CocoaMySQL-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CocoaMySQLTests/CocoaMySQLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4290F04D18498FB100C67769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaMySQL.framework/Versions/A/CocoaMySQL";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaMySQL/CocoaMySQL-Prefix.pch";
+				INFOPLIST_FILE = "CocoaMySQLTests/CocoaMySQLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4290F01A18498FB100C67769 /* Build configuration list for PBXProject "CocoaMySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4290F04618498FB100C67769 /* Debug */,
+				4290F04718498FB100C67769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4290F04818498FB100C67769 /* Build configuration list for PBXNativeTarget "CocoaMySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4290F04918498FB100C67769 /* Debug */,
+				4290F04A18498FB100C67769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4290F04B18498FB100C67769 /* Build configuration list for PBXNativeTarget "CocoaMySQLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4290F04C18498FB100C67769 /* Debug */,
+				4290F04D18498FB100C67769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4290F01718498FB100C67769 /* Project object */;
+}
